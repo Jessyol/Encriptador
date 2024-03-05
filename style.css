@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+@media (max-width: 740px) {}
+
+body{
+    background-color: #f4f4fc;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{   
+ width: 120px;
+height: 48px;
+padding-top: 40px;
+padding-left: 40px;
+}
+
+main{
+    
+display: flex;
+position:fixed;
+width: 100%;
+height: 90%;
+justify-content: space-between;
+}
+
+.contenedorcajatexto{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    padding-left: 100px;
+    width: 1080px;
+    height: 600px;
+    
+}
+
+
+.texto-resultado{
+    width: 280px;
+    height: 48px;
+    top: 150px;
+    left: 120px;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-family: 'Inter', sans-serif;
+
+}
+.cajatexto{
+width: 80%;
+height: 100%;
+top: 168px;
+left: 240px;
+color: #0A3871;
+font-size: 32px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+background-color: #f4f4fc;
+cursor: pointer;
+border: none;
+font-family: 'Inter', sans-serif;
+text-transform: lowercase;
+position: fixed;
+}
+
+.cajatexto::placeholder{
+    color: #0A3871;
+} .cajatexto:focus {
+    outline: none;
+}
+
+.alerta{
+position: absolute;
+top: 750px;
+left: 370px;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+color: #495057;
+}
+
+
+.contenedor-botones{
+    position: absolute;
+top: 800px;
+height: 80px;
+padding-left: 15%;
+padding-top: 15px;
+gap: 24px;
+
+}
+
+.btn-encriptar{
+width: 328px;
+height: 67px;
+font-family: 'Inter', sans-serif;
+background: #0A3871;
+font-size: 16px;
+font-weight: 400;
+color: #FFFFFF;
+border-radius: 24px;
+border: none;
+cursor: pointer;
+
+}
+
+.btn-desencriptar{
+    width: 328px;
+    height: 67px;
+    font-family: 'Inter', sans-serif;
+    background: #d8dfe8;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0A3871;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    
+}
+
+
+.seccion2{
+
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 940px;
+    right: 400px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+
+.contenedormunieco{
+
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+
+.contenedor-parrafo{
+
+    position: absolute;
+    box-sizing: border-box;
+    top: 570px;
+    left: 40px;
+}
+
+.contenedor-parrafo h3{
+    width: 336px;
+    height: 58px;
+ font-size: 24px;
+ font-weight: 700;
+ line-height: 28.8px;
+ font-family: 'Inter', sans-serif;
+ text-align: center;
+ color: #343a40;
+}
+
+.contenedor-parrafo p{
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+}
+
+
+.contenedor-resultado{
+
+    position: absolute;
+    bottom: 400px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+
+
+}
+
+.contenedor-resultado p{
+
+    color: #495057;
+font-size: 25px;
+}
+
+.contenedor-copiar{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    background-color: aqua;
+    padding-left: 40px;
+}
+
+.btn-copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    right: 4px;
+}
+
+.ocultar{
+    display: none;
+}
+
+
